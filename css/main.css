@@ -1,0 +1,242 @@
+/***** BASE STYLES *****/
+body {
+  font-family: 'Nunito', serif;
+  padding: 0;
+  margin: 0;
+}
+
+#skills, #work, #contact, #about {
+  height: 600px;
+}
+
+
+/***** Grid *****/
+.full-width{
+    width:1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width{
+  width:400px;
+  float: left;
+}
+
+/*****Header*****/
+
+header {
+    height: 800px;
+    background: url('../img/hero.png');
+    background-size: cover;
+    border-bottom: 3px solid #537275;
+}
+
+nav {
+    float: right;
+    padding: 40px 10px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:black;
+}
+
+header h2 {
+    width: 1200px;
+    clear: both;
+    font-size: 45px;
+    line-height:80px;
+    font-family:'Permanent Marker', cursive;
+    text-align: center;
+    color: white;
+    line-height: 55px;
+}
+
+header h2 span {
+    font-size: 40px;
+    font-family: 'Nunito', serif;
+}
+
+/***** Skills Section *****/
+#skills {
+  text-align: center;
+  border-bottom: 3px solid #537275;
+}
+
+#skills .full-width{
+  padding: 25px 0;
+
+}
+
+#skills img{
+  padding-bottom: 30px;
+}
+
+#skills h2{
+  font-size:24px;
+  width:190px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  font-family:'Permanent Marker', cursive;
+  font-size: 36px;
+}
+
+#skills h3{
+  font-size:20px;
+  width:190px;
+  margin: 0 auto;
+}
+
+#skills p{
+  font-size:18px;
+  line-height:30px;
+  padding: 0 35px;
+  font-family: 'Lora', serif;
+}
+
+/***** Work Section *****/
+
+#work {
+  background-color:#CC147C;
+  text-align: center;
+  border-bottom: 3px solid #537275;
+}
+
+#work .full-width{
+  padding: 25px 0;
+
+}
+
+#work img{
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-radius: 50%;
+}
+
+#work h2{
+  font-size:24px;
+  width:100%;
+  padding-bottom: 15px;
+  padding-left: 45px;
+  font-family:'Permanent Marker', cursive;
+  font-size: 36px;
+  text-align: left;
+}
+
+#work h3{
+  font-size:20px;
+  width:190px;
+  margin: 0 auto;
+}
+
+#work p{
+  font-size:18px;
+  line-height:30px;
+  padding: 0 35px;
+  font-family: 'Lora', serif;
+}
+
+/***** About Section *****/
+#about {
+  border-bottom: 3px solid #537275;
+}
+
+#about .full-width {
+  padding:20px 0;
+}
+
+#about h2{
+  font-size:24px;
+  width:100%;
+  padding-bottom: 15px;
+  padding-left: 45px;
+  font-family:'Permanent Marker', cursive;
+  font-size: 36px;
+  text-align: left;
+}
+
+#about p {
+  font-size:18px;
+  width:400px;
+  line-height:30px;
+  padding: 0 35px;
+  font-family: 'Lora', serif;
+}
+
+#about img{
+  height: 400px;
+  width: 380px;
+  border-radius: 50%;
+  padding-bottom: 30px;
+}
+
+/***** Contact Section *****/
+#contact {
+  background-color:#419199;
+    height: 400px;
+}
+
+#contact .full-width {
+  padding:20px 0;
+}
+
+#contact h2 {
+  font-size:24px;
+  width:100%;
+  padding-bottom: 15px;
+  padding-left: 45px;
+  font-family:'Permanent Marker', cursive;
+  font-size: 36px;
+  text-align: left
+}
+
+#contact h2 span {
+    font-size: 28px;
+    font-family: 'Nunito', serif;
+}
+
+#contact img{
+  padding-left: 45px;
+}
+
+#envelope{
+  padding: 85px 10px 0 80px;
+}
+
+#email-header{
+  font-size:28px;
+  width:250px;
+  padding-left: 45px;
+}
+
+#contact a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 48px;
+    padding-top: 250px;
+    text-align: center;
+}
